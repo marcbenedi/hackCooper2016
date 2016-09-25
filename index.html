@@ -18,36 +18,32 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="bootstrap/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+		<!-- Compiled and minified CSS -->
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+  		<!-- Compiled and minified JavaScript -->
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
 		<style type="text/css">
 			html, body {
 				width: 100%;
 				height: 100%;
-				background-color: #ffffff;
+				background-color: #E3F2FD;
+				position: absolute;
 			}
-			.main_content{
-				height: 100%;
-				width: 70%;
-				background-color: #ffffff;
-				float: left;
-			}
-			.poll_side_space{
-				height: 100%;
-				width: 30%;
-				background-color: #c0deed;
-				position: fixed;
-				float: left;
-				margin-left: 70%;
-
-			}
-			.poll_title{
-				text-align: center;
-				color: #ffffff;
-				background-color: #00aced;
+			.main_header{
 				width: 100%;
-				margin: 0;
+				height: 400px;
+				background-color: #0D47A1;
+				position: absolute;
 			}
-			h1{
-				margin: 0px;
+			.main_header > h1{
+				position: relative;
+				text-align: center;
+				top: 30%;
+				font-family: "Roboto", sans-serif;
+				font-weight: bold;
+				color: white;
 			}
 			.progress_bar{
 				border-width:3px;
@@ -62,35 +58,53 @@
 				margin-left: 5px;
 			}
 			#money{
-				background-color: yellow;
+				background-color: #FFFF00;
 			}
 			#people{
-				background-color: brown;
+				background-color: #689F38;
 			}
 			#army{
-				background-color: blue;
+				background-color: #D84315;
 			}
+			main{
+				position: relative;
+				margin: 315px auto 0 auto;
+			}
+			.container{
+				margin-bottom: 20px;
+				padding-bottom: 10px;
+				background-color: white;
+			}
+			
 		</style>	
 	</head>
 	<body>
-		<div class="main_content">
-			<h1>WELCOME TO nom del "joc"</h1>
-			<h2>Currently status</h2>
-			<div class="progress_bar" id="money">MONEY 0/100</div>
-			<div class="progress_bar" id="people">PEOPLE 0/100</div>
-			<div class="progress_bar" id="army">ARMY 0/100</div>
-			<br>
-			<h2>Recent</h2>
-			<a class="twitter-timeline" href="https://twitter.com/Interactive_civ">Tweets by Interactive_civ</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-		</div>
-		<div class="poll_side_space">
-			<div class="poll_title"><h1>YOUR CHOICE</h1></div>
-			            <a class="twitter-timeline"  href="https://twitter.com/hashtag/CivYES" data-widget-id="779938052437381120">#CivYES tuits</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                        <a class="twitter-timeline"  href="https://twitter.com/hashtag/CivNO" data-widget-id="779937717866102784">#CivNO tuits</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          
-          
-		</div>
+		<header>
+			<div class="main_header z-depth-2">
+				<h1>WELCOME TO nom del "joc"</h1>
+			</div>
+		</header>
+		<main>
+			<div class="container z-depth-2">
+				<h2>Current status</h2>
+				<div class="progress_bar" id="money">MONEY 0/100</div>
+				<div class="progress_bar" id="people">PEOPLE 0/100</div>
+				<div class="progress_bar" id="army">ARMY 0/100</div>
+			</div>
+
+			<div class="container z-depth-2">
+				<h2>Last decision</h2>
+				            <a class="twitter-timeline"  href="https://twitter.com/hashtag/CivYES" data-widget-id="779938052437381120">#CivYES tuits</a>
+	            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	                        <a class="twitter-timeline"  href="https://twitter.com/hashtag/CivNO" data-widget-id="779937717866102784">#CivNO tuits</a>
+	            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+
+			<div class="container z-depth-2">
+				<h2>Recent</h2>
+				<a class="twitter-timeline" href="https://twitter.com/Interactive_civ">Tweets by Interactive_civ</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+
+		</main>
 	</body>
 </html>
