@@ -22,26 +22,75 @@
 			html, body {
 				width: 100%;
 				height: 100%;
-				background-color: red;
+				background-color: #ffffff;
 			}
 			.main_content{
 				height: 100%;
 				width: 70%;
-				background-color: yellow;
-				float: right;
+				background-color: #ffffff;
+				float: left;
 			}
 			.poll_side_space{
 				height: 100%;
 				width: 30%;
-				background-color: blue;
+				background-color: #c0deed;
 				position: fixed;
-				float: right;
+				float: left;
+				margin-left: 70%;
 
+			}
+			.poll_title{
+				text-align: center;
+				color: #ffffff;
+				background-color: #00aced;
+				width: 100%;
+				margin: 0;
+			}
+			h1{
+				margin: 0px;
+			}
+			.progress_bar{
+				border-width:3px;
+				border-color: black;
+				border-radius: 5px;
+				border-style: solid;
+				height: 25px;
+				width: 30%;
+				color: white;
+				font-weight: bold;
+				float: left;
+				margin-left: 5px;
+			}
+			#money{
+				background-color: yellow;
+			}
+			#people{
+				background-color: brown;
+			}
+			#army{
+				background-color: blue;
 			}
 		</style>	
 	</head>
 	<body>
-		<div class="main_content">aaaa</div>
-		<div class="poll_side_space">aaaa</div>
+		<div class="main_content">
+			<h1>WELCOME TO nom del "joc"</h1>
+			<h2>Currently status</h2>
+			<div class="progress_bar" id="money">MONEY 0/100</div>
+			<div class="progress_bar" id="people">PEOPLE 0/100</div>
+			<div class="progress_bar" id="army">ARMY 0/100</div>
+			<br>
+			<h2>Recent</h2>
+			<a class="twitter-timeline" href="https://twitter.com/Interactive_civ">Tweets by Interactive_civ</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+		<div class="poll_side_space">
+			<div class="poll_title"><h1>YOUR CHOICE</h1></div>
+			            <a class="twitter-timeline"  href="https://twitter.com/hashtag/CivYES" data-widget-id="779938052437381120">#CivYES tuits</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        <a class="twitter-timeline"  href="https://twitter.com/hashtag/CivNO" data-widget-id="779937717866102784">#CivNO tuits</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+          
+		</div>
 	</body>
 </html>
