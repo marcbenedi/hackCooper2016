@@ -1,0 +1,85 @@
+{
+  "created_at": "Sun Sep 25 16:17:59 +0000 2016",
+  "id": 780078906225352700,
+  "id_str": "780078906225352704",
+  "text": "[12:17] BlueCity has made an advance in science! Should BlueCity use it to improve the army's weapons? #cityYes or #cityNo ?",
+  "source": "<a href=\"https://www.jutge.org/\" rel=\"nofollow\">Twitter Bot HackCooper</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 779889064954716200,
+    "id_str": "779889064954716160",
+    "name": "Inter Active",
+    "screen_name": "Interactive_civ",
+    "location": null,
+    "url": null,
+    "description": null,
+    "protected": false,
+    "verified": false,
+    "followers_count": 2,
+    "friends_count": 0,
+    "listed_count": 2,
+    "favourites_count": 0,
+    "statuses_count": 13,
+    "created_at": "Sun Sep 25 03:43:37 +0000 2016",
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "",
+    "profile_background_image_url_https": "",
+    "profile_background_tile": false,
+    "profile_link_color": "2B7BB9",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_3_normal.png",
+    "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_3_normal.png",
+    "default_profile": true,
+    "default_profile_image": true,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "entities": {
+    "hashtags": [
+      {
+        "text": "cityYes",
+        "indices": [
+          103,
+          111
+        ]
+      },
+      {
+        "text": "cityNo",
+        "indices": [
+          115,
+          122
+        ]
+      }
+    ],
+    "urls": [],
+    "user_mentions": [],
+    "symbols": []
+  },
+  "favorited": false,
+  "retweeted": false,
+  "filter_level": "low",
+  "lang": "en",
+  "timestamp_ms": "1474820279066"
+}
