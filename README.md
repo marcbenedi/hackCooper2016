@@ -18,5 +18,6 @@ The objective is that Blue City wins the others.
 - Html
 - CSS
 
-## Collaborators
+## Done by
 - Hermes Valenciano
+- Marc Benedí
