@@ -3,10 +3,10 @@ console.log("the bot is working")
 var Twit = require('twit')
 
 var T = new Twit({
-  consumer_key:         'KGfQ4QTLG6dxlwbIq0sFDazVw',
-  consumer_secret:      'EPqPiUSjcTAPNMk95FwhYKOM50G6zfiPXMgt2FK0X6ioyQZpMa',
-  access_token:         '779889064954716160-GFAMwQqSt9ZyE23Qef5NAvJvu2KK3C0',
-  access_token_secret:  'GLLUFb2eU1cofMZzGLFAaw6ASUo4ab3FdNG8K7JSGY4et',
+  consumer_key:         '',
+  consumer_secret:      '',
+  access_token:         '',
+  access_token_secret:  '',
   //timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
 })
 
